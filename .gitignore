@@ -1,0 +1,23 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Variables d'environnement (si ajoutées plus tard)
+.env
+
+# Données téléchargées / cache (si on en ajoute)
+data/*.csv
+data/cache/
+
+# Editeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
